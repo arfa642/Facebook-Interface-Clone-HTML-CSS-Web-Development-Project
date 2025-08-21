@@ -1,0 +1,119 @@
+    .head {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: flex;
+        background-color: white;
+        border-bottom: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(247, 239, 239);
+         z-index: 500;
+    }
+
+    .left {
+        width: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .youtube-logo {
+        margin-right: 25px;
+        height: 20px;
+        margin-left: 25px;
+    }
+
+    .hamburger {
+        margin-left: 20px;
+        height: 24px;
+    }
+
+    .right {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 25px;
+
+    }
+
+    .icon {
+        height: 22px;
+        margin: 12.5px;
+    }
+    .mydp{
+        border-radius: 50%; 
+         margin-left: 12.5px;
+          height: 32px;
+          width: 32px;
+         object-fit: cover;
+         margin: 12.5px;
+    }
+
+    .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+
+    .voicesearchicon,
+    .searchicon {
+        height: 20px;
+    }
+
+    .voicesearchbutton {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .searchbutton {
+
+        height: 38px;
+        margin-left: -2px;
+        width: 50px;
+        border-color: rgb(191, 188, 188);
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border: 1px solid grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: relative;
+    }
+    .sh{
+        position: absolute;
+         background-color: rgb(150, 147, 147);
+     color: white;
+     opacity: 0;
+     padding: 6px;
+     bottom: -20px;
+    }
+    .sh:hover{
+opacity: 1;
+
+    }
+
+    .searchbar {
+        height: 34px;
+        flex: 1;
+        max-width: 340px;
+        font-size: 15px;
+        padding-left: 20px;
+        border-color: rgb(191, 188, 188);
+        border-style: solid;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid grey;
+
+    }
+
